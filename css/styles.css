@@ -1,3 +1,37 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.if{
+	background-color: black;
+	
+}
+
+.if img{
+	width: 350px;
+	padding-top: 30px;
+	
+	
+	
+}
+
+.if p{
+	color: white;
+	
+	
+}
+/*.succeed {
+	color: white;
+	background-color: black;
+}*/
+
+
+
+h1{
+	color:#F4610D;
+	margin-bottom: -15px;
+	
+}
+
+h2{
+	color: gray
+}
