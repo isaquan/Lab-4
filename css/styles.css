@@ -3,14 +3,13 @@
 
 .if{
 	background-color: black;
-	
+	height: 480px;
 }
 
 .if img{
 	width: 350px;
 	padding-top: 30px;
-	
-	
+	float: left;
 	
 }
 
@@ -29,9 +28,21 @@
 h1{
 	color:#F4610D;
 	margin-bottom: -15px;
+	font-stretch: extra-condensed;
 	
 }
 
 h2{
-	color: gray
+	color: darkgray;
+}
+
+.title img{
+	width: 150px;
+	float: right;
+	margin-top: -15px;
+}
+
+.text{ 
+	width: 300px;
+	font-size: 14px;
 }
