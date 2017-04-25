@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Floods background with black and keeps if at 480px, which cuts off any black below if img*/
 .if{
 	background-color: black;
 	height: 480px;
@@ -14,28 +15,29 @@
 }
 
 .if p{
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
 	color: white;
-	
-	
+	padding-top: 270px;
+	width:590px;
+	line-height: 1.5em;
 }
-/*.succeed {
-	color: white;
-	background-color: black;
-}*/
 
 
-
+/* Margin-bottom adjusts the position of the hr line*/
 h1{
 	color:#F4610D;
 	margin-bottom: -15px;
-	font-stretch: extra-condensed;
-	
+	font: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-stretch:extra-condensed;
 }
 
 h2{
-	color: darkgray;
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	font-weight: lighter;
+	color:#B1B1B1;
 }
 
+/*Maintains size of logo and where it is positioned*/
 .title img{
 	width: 150px;
 	float: right;
@@ -44,5 +46,10 @@ h2{
 
 .text{ 
 	width: 300px;
-	font-size: 14px;
+	font-size: 15px;
+}
+
+/*Reduces space between bullet header and bullet points*/
+h4{
+	margin-bottom: -.75em;
 }
